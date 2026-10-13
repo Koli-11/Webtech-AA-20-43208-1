@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Registration</title>
+</head>
+<body>
+    <h1>Library Member Profile</h1>
+    <p><strong>welcome to this Library Webpage.</strong></p>
+    <p> This library provides <i>books, journals, and learning resources</i>
+        for all members.</p>
+
+        <hr>
+        <h2>Member Information</h2>
+
+        <div>
+            <img src ="https://grthf" alt="Library member picture"
+              width="150" height="150">
+               
+        <p><strong>Name:</strong>Sadia Islam Koli</p>
+         <p><strong>ID:</strong>20-43208-1</p>
+         <p><strong>Email:</strong>sadiaislamkoli0@gmail.com</p>
+<p><strong>Membership Status:</strong>
+    <em>Active</em></p>
+    <p>Visit<a href="https://xyz.com">Visit</a></p>
+    </div>
+
+    <h2> About Library</h2>
+    <p>This library provides <strong> knowledge</strong> and <strong>learning</strong></p>
+<hr>
+
+<h2>Library member Table</h2>
+<table border="2">
+    <thead>
+        <tr>
+           <th>Member Id</th>
+           <th>Name</th>
+           <th>Email</th>
+           <th>image</th>
+           
+     </tr>
+    </thead>
+
+    <tbody>
+
+    <tr>
+        <td>20-43208-1 </td>
+        <td>sadia Islam Koli</td>
+        <td>sadiaislamkoli0@gmail.com </td>
+        <td> <img src="https://grthf" alt="Koli's picture"
+              width="50" height="50"></td>
+        
+    </tr>
+    <tr>
+        <td>20-43209-1 </td>
+        <td>Rahim</td>
+        <td>rahim0@gmail.com </td>
+        <td> <img src="https://grthf" alt=Rahim's picture
+              width="50" height="50"></td>
+        
+    </tr>
+    </tbody>
+
+</table>
+  <hr>
+
+  <h2>Membership Registration Form</h2>
+
+    <form action="" method="get">
+
+        <label for="name">Full Name:</label>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+            required
+        >
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+        >
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+        >
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input
+            type="number"
+            id="age"
+            name="age">
+           
+        
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input
+            type="date"
+            id="dob"
+            name="dob"
+            required
+        >
+        <br><br>
+
+        <p>Gender:</p>
+
+        <input
+            type="radio"
+            id="male"
+            name="gender"
+            value="Male"
+            required
+        >
+        <label for="male">Male</label>
+
+        <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="Female"
+        >
+        <label for="female">Female</label>
+
+        <input
+            type="radio"
+            id="other"
+            name="gender"
+            value="Other"
+        >
+        <label for="other">Other</label>
+
+        <br><br>
+
+        <label for="membership">Membership Type:</label>
+
+        <select
+            id="membership"
+            name="membership"
+            required
+        >
+            <option value="">-- Select Membership --</option>
+            <option value="Regular">Regular</option>
+            <option value="Premium">Premium</option>
+            <option value="Student">Student</option>
+        </select>
+
+        <br><br>
+
+        <label for="photo">Upload Profile Picture:</label>
+        <input
+            type="file"
+            id="photo"
+            name="photo"
+            accept="image/*"
+            required
+        >
+
+        <br><br>
+
+        <label for="address">Address:</label>
+        <br>
+
+        <textarea
+            id="address"
+            name="address"
+            rows="4"
+            cols="35"
+            placeholder="Enter your full address"
+            required
+        ></textarea>
+
+        <br><br>
+
+        <input
+            type="checkbox"
+            id="terms"
+            name="terms"
+            value="Accepted"
+            required
+        >
+        <label for="terms">
+            I agree to the library terms and conditions.
+        </label>
+
+        <br><br>
+
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+
+    </form>
+
+    <hr>
+
+    <p>
+        <b>Library Notice:</b>
+        <i>Please provide correct information during registration.</i>
+    </p>
+
+    <p>
+        &copy; 2026 Digital Library. All rights reserved.
+    </p>
+
+
+
+</body>
+</html>
