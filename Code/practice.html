@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practice Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="info">
+    <form method="GET">
+        <fieldset>
+            <legend><h1>Application Form</h1></legend>
+
+            <label for="fullname">Full Name</label>
+            <input type="text" name="name" id="fullname">
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone">
+            <br><br>
+
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age"
+                   min="0" max="100">
+            <br><br>
+
+            <label >Gender:</label>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="Other">Other<br><br>
+        </div>
+            
+        </fieldset><br><br>
+
+         <fieldset>
+    
+        <label style="color:chocolate">Country:</label>
+        <select style="color:blue" id="country">
+            <option value="Select">Select</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Chittagong">Chittagong</option>
+            <option value="Khulna">Khulna</option>
+
+        </select><br><br>
+         
+        <label style="color:chocolate"> Profile Image:</label><br>
+        <input type="file" id="image" accept="image/*">
+        <br><br>
+       <img id="preview" alt="preview">
+       <br><br>
+
+       <label style="color:chocolate">Upload File:</label><br>
+       <input type="file" id="file">
+       <br><br>
+
+       <input type="checkbox" id="terms">
+       <label style="color:blueviolet">I accept all the terms</label><br><br>
+       </fieldset><br>
+       
+       <input type="submit" value="Submit"><br><br>
+        <a class="link" href="#">Click me</a>
+        
+
+      
+
+    </form>
+</body>
+</html>
